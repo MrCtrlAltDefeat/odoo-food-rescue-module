@@ -1,0 +1,13 @@
+<odoo>
+    <record id="mail_template_pickup" model="mail.template">
+        <field name="name">Pickup Notification</field>
+        <field name="model_id" ref="model_pickup_request"/>
+        <field name="subject">New Pickup Scheduled</field>
+        <field name="email_from">${(user.email or '')|safe}</field>
+        <field name="email_to">${(object.receiver_id.user_id.email or '')|safe}</field>
+        <field name="body_html"><![CDATA[
+            <p>Hello,</p>
+            <p>A new pickup for ${object.food_batch_id.name} has been scheduled at ${object.scheduled_time}.</p>
+        ]]></field>
+    </record>
+</odoo>

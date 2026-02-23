@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_food_batch_user,access.food_batch.user,model_food_batch,,1,1,1,1
+access_receiver_user,access.receiver.user,model_receiver,,1,1,1,1
+access_pickup_user,access.pickup.user,model_pickup_request,,1,1,1,1
+access_impact_user,access.impact.user,model_impact_log,,1,1,1,1

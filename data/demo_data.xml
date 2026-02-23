@@ -1,0 +1,6 @@
+<odoo>
+    <record id='receiver_ngo1' model='receiver'>
+        <field name='name'>Local NGO 1</field>
+        <field name='contact'>+971501234567</field>
+    </record>
+</odoo>

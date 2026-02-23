@@ -1,0 +1,11 @@
+<odoo>
+  <record id="ir_cron_auto_confirm_free_orders" model="ir.cron">
+    <field name="name">Auto-confirm $0 Website Orders</field>
+    <field name="model_id" ref="sale.model_sale_order"/>
+    <field name="state">code</field>
+    <field name="code">model._auto_confirm_free_orders()</field>
+    <field name="interval_number">5</field>
+    <field name="interval_type">minutes</field>
+    <field name="active" eval="True"/>
+  </record>
+</odoo>

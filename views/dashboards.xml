@@ -1,0 +1,19 @@
+<odoo>
+    <!-- Placeholder for future dashboard -->
+    <record id="view_dashboard_main" model="ir.ui.view">
+        <field name="name">dashboard.main</field>
+        <field name="model">food_batch</field>
+        <field name="arch" type="xml">
+            <kanban>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_card">
+                            <strong><field name="description"/></strong>
+                            <div>Quantity: <field name="quantity"/></div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+</odoo>

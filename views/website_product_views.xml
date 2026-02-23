@@ -1,0 +1,20 @@
+<odoo>
+  <!-- <template id="website_sale_product_leftover" inherit_id="website_sale.product">
+    <xpath expr="//div[@id='product_details']//div[contains(@class,'product_price')]" position="after">
+      <t t-if="product.is_leftover">
+        <div class="my-2">
+          <h6>Leftover Details</h6>
+          <ul class="list-unstyled">
+            <li><strong>Food Type:</strong>
+              <t t-esc="dict(product.product._fields['food_type'].selection).get(product.food_type) or '—'"/>
+            </li>
+            <li><strong>Quantity:</strong>
+              <t t-esc="product.leftover_qty or 0.0"/>
+              <t t-esc="product.leftover_qty_unit"/>
+            </li>
+          </ul>
+        </div>
+      </t>
+    </xpath>
+  </template> -->
+</odoo>

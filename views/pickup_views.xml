@@ -1,0 +1,37 @@
+<odoo>
+    <record id="view_pickup_list" model="ir.ui.view">
+        <field name="name">pickup_request.list</field>
+        <field name="model">pickup_request</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="food_batch_id"/>
+                <field name="receiver_id"/>
+                <field name="scheduled_time"/>
+                <field name="handled_by"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_pickup_form" model="ir.ui.view">
+        <field name="name">pickup_request.form</field>
+        <field name="model">pickup_request</field>
+        <field name="arch" type="xml">
+            <form string="Pickup Request">
+                <sheet>
+                    <group>
+                        <field name="food_batch_id"/>
+                        <field name="receiver_id"/>
+                        <field name="scheduled_time"/>
+                        <field name="handled_by"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_pickups" model="ir.actions.act_window">
+        <field name="name">Pickups</field>
+        <field name="res_model">pickup_request</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

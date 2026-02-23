@@ -1,0 +1,10 @@
+<odoo>
+    <report
+        id="report_pickup"
+        model="pickup_request"
+        string="Pickup Report"
+        report_type="qweb-pdf"
+        name="food_waste_to_food_plate.report_pickup"
+        file="food_waste_to_food_plate.report_pickup"
+    />
+</odoo>

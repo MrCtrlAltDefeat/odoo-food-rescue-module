@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Odoo specific
+*.log
+filestore/
+.odoo/
+sessions/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Screenshots placeholder (keep folder, ignore actual images added locally)
+docs/screenshots/*.png
+!docs/screenshots/.gitkeep

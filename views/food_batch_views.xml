@@ -1,0 +1,41 @@
+<odoo>
+    <record id="view_food_batch_list" model="ir.ui.view">
+        <field name="name">food_batch.list</field>
+        <field name="model">food_batch</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name = "product"/>
+                <field name="description"/>
+                <field name="food_type"/>
+                <field name="quantity"/>
+                <field name="expiry_date"/>
+                <field name="kitchen_location"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_food_batch_form" model="ir.ui.view">
+        <field name="name">food_batch.form</field>
+        <field name="model">food_batch</field>
+        <field name="arch" type="xml">
+            <form string="Food Batch">
+                <sheet>
+                    <group>
+                        <field name="product"/>
+                        <field name="description"/>
+                        <field name="food_type"/>
+                        <field name="quantity"/>
+                        <field name="expiry_date"/>
+                        <field name="kitchen_location"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_food_batches" model="ir.actions.act_window">
+        <field name="name">Food Batches</field>
+        <field name="res_model">food_batch</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>
