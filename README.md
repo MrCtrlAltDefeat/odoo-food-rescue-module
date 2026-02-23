@@ -1,4 +1,4 @@
-# 🥗 Food Waste to Food Plate — Odoo Module
+# 🥗 Foodo:Food Waste to Food Plate — Odoo Module
 
 > An Odoo 19 module that turns corporate kitchen surplus into community meals — tracking food batches, coordinating NGO pickups, and measuring real environmental impact.
 
@@ -127,15 +127,6 @@ Corporate Kitchen
 5. *(Optional)* Load demo data via Settings → Technical → Sequences & Identifiers → Demo Data
 
 ---
-
-## 📸 Screenshots
-
-> *Add screenshots of your Odoo instance here once deployed.*
-
-| Food Batch List | Pickup Scheduling | Impact Dashboard |
-|---|---|---|
-| ![batch](docs/screenshots/food_batch.png) | ![pickup](docs/screenshots/pickup.png) | ![dashboard](docs/screenshots/dashboard.png) |
-
 ---
 
 ## 📈 Impact Metrics Tracked
@@ -193,9 +184,6 @@ This project is licensed under the **LGPL-3.0** license — see [LICENSE](LICENS
 ---
 
 ## 👤 Author
-
-Built with ❤️ as part of an Odoo development workshop.
+Odooops team in the Odoo Hackathon 2026
 
 ---
-
-*If this module helped you, give it a ⭐ on GitHub!*
