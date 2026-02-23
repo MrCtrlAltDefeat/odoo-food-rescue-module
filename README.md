@@ -1,4 +1,4 @@
-# Foodo:Food Waste to Food Plate — Odoo Module
+# Foodo: Food Waste to Food Plate — Odoo Module
 
 > An Odoo 19 module that turns corporate kitchen surplus into community meals — tracking food batches, coordinating NGO pickups, and measuring real environmental impact.
 
