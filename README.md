@@ -1,10 +1,10 @@
-# 🥗 Foodo:Food Waste to Food Plate — Odoo Module
+# Foodo:Food Waste to Food Plate — Odoo Module
 
 > An Odoo 19 module that turns corporate kitchen surplus into community meals — tracking food batches, coordinating NGO pickups, and measuring real environmental impact.
 
 ---
 
-## 📌 Overview
+## Overview
 
 **Food Waste to Food Plate** is a custom Odoo module built to solve a real-world problem: businesses (hotels, corporate cafeterias, catering companies) regularly discard edible food that could be redirected to those in need.
 
@@ -12,24 +12,24 @@ This module integrates directly into Odoo's existing Sales, Inventory, and Websi
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🍱 **Food Batch Tracking** | Log incoming food batches with type, quantity, expiry date, and kitchen location |
-| 📦 **Auto Stock Update** | On batch creation, inventory (`stock.quant`) is automatically updated — no manual warehouse entry needed |
-| 🤝 **Receiver Management** | Register NGOs or employees as receivers with pickup capacity and contact info |
-| 🚗 **Pickup Requests** | Schedule and assign pickups, linking batches to receivers and handlers |
-| 📊 **Impact Dashboard** | Visual KPIs tracking meals saved, kg of waste avoided, and CO₂ emissions prevented |
-| 🛒 **Website Integration** | Expose available food products on the Odoo e-commerce portal |
-| 📧 **Email Notifications** | Automated mail templates notify receivers on pickup scheduling |
-| ⏰ **Scheduled Actions** | Cron jobs auto-confirm free orders and process redistribution flows |
-| 🖨️ **Pickup Report** | Printable PDF report for each pickup request |
-| 🔐 **Role-Based Access** | Separate security groups for staff, NGO coordinators, and admins |
+|  **Food Batch Tracking** | Log incoming food batches with type, quantity, expiry date, and kitchen location |
+|  **Auto Stock Update** | On batch creation, inventory (`stock.quant`) is automatically updated — no manual warehouse entry needed |
+|  **Receiver Management** | Register NGOs or employees as receivers with pickup capacity and contact info |
+|  **Pickup Requests** | Schedule and assign pickups, linking batches to receivers and handlers |
+|  **Impact Dashboard** | Visual KPIs tracking meals saved, kg of waste avoided, and CO₂ emissions prevented |
+|  **Website Integration** | Expose available food products on the Odoo e-commerce portal |
+|  **Email Notifications** | Automated mail templates notify receivers on pickup scheduling |
+|  **Scheduled Actions** | Cron jobs auto-confirm free orders and process redistribution flows |
+|  **Pickup Report** | Printable PDF report for each pickup request |
+|  **Role-Based Access** | Separate security groups for staff, NGO coordinators, and admins |
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 food_waste_to_food_plate/
@@ -64,7 +64,7 @@ food_waste_to_food_plate/
 
 ---
 
-## 🔄 How It Works
+## How It Works
 
 ```
 Corporate Kitchen
@@ -90,7 +90,7 @@ Corporate Kitchen
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Platform:** [Odoo 19](https://www.odoo.com) (Community / Enterprise)
 - **Language:** Python 3, XML, CSV
@@ -99,7 +99,7 @@ Corporate Kitchen
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Odoo 19 instance (local or hosted)
@@ -129,23 +129,23 @@ Corporate Kitchen
 ---
 ---
 
-## 📈 Impact Metrics Tracked
+##  Impact Metrics Tracked
 
 | Metric | How It's Calculated |
 |---|---|
-| 🍽️ Meals Saved | Quantity redistributed ÷ average meal size |
-| ♻️ KG Waste Avoided | Direct weight of food redistributed |
-| 🌍 CO₂ Saved | KG waste × CO₂ equivalent factor (food decomposition in landfill) |
+|  Meals Saved | Quantity redistributed ÷ average meal size |
+|  KG Waste Avoided | Direct weight of food redistributed |
+|  CO₂ Saved | KG waste × CO₂ equivalent factor (food decomposition in landfill) |
 
 ---
 
-## 🧪 Demo Data
+##  Demo Data
 
 The module ships with `demo_data.xml` containing sample food batches, receivers, and pickup requests so you can explore the full workflow immediately after installation.
 
 ---
 
-## 🔐 Security Model
+##  Security Model
 
 | Group | Permissions |
 |---|---|
@@ -154,7 +154,7 @@ The module ships with `demo_data.xml` containing sample food batches, receivers,
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] SMS notifications for pickup reminders
 - [ ] Mobile-friendly receiver portal (Odoo Website)
@@ -165,7 +165,7 @@ The module ships with `demo_data.xml` containing sample food batches, receivers,
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
@@ -177,13 +177,13 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **LGPL-3.0** license — see [LICENSE](LICENSE) for details.
 
 ---
 
-## 👤 Author
+##  Author(s)
 Odooops team in the Odoo Hackathon 2026
 
 ---
